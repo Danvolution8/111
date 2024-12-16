@@ -8,7 +8,7 @@
     "serve": "webpack server --mode development",
     "start": "npx nodemon --watch webpack.config.js --exec \"npm run serve\"",
     "build-sass": "sass --load-path=node_modules my-bulma-project.scss my-bulma-project.css",
-    "deploy": "npm run build && surge ./dist slavassite.surge.sh"
+    "deploy": "npm run build && surge ./dist Mihhail.Osipchik.surge.sh"
   },
   "type": "module",
   "keywords": [],
@@ -26,7 +26,7 @@
     "sass-loader": "^16.0.3",
     "simple-nunjucks-loader": "^3.2.0",
     "style-loader": "^4.0.0",
-    "webpack": "^5.96.1",
+    "webpack": "^5.95.0",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^5.1.0"
   },

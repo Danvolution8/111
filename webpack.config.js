@@ -4,7 +4,7 @@ import { fileURLToPath } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
-let name = "Daniil";
+let name = "Mihhail";
 
 export default async () => {
     const response = await fetch('https://rickandmortyapi.com/api/character?page=21');
